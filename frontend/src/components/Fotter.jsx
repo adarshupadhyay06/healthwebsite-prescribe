@@ -28,7 +28,7 @@ const Fotter = () => {
         <p  className='text-xl fot-medium mb-5'>GET IN TOUCH</p>
         <ul className='flex flex-col gap-2 text-gray-600'>
           <li>+91-7355396176</li>
-          <li>upadhyayadarsh152@gmail.com</li>
+          <li>namishbaniya555@gmail.com</li>
         </ul>
       </div>
 

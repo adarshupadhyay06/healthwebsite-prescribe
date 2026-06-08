@@ -6,8 +6,8 @@ import Login from './pages/Login'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import MyProfile from './pages/MyProfile'
-import MyAppointment from './pages/MyAppointment'
-import Navbar from './components/navbar'
+import MyAppointments from './pages/MyAppointments'
+import Navbar from './components/Navbar'
 import Fotter from './components/Fotter'
 import Appointment from './pages/Appointment'
 
@@ -24,9 +24,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/my-profile' element={<MyProfile />} />
-        <Route path='/my-appointment/:docId' element={<MyAppointment />} />
-        <Route path="/appointment/:docId" element={<Appointment />} />
-
+        <Route path='/my-appointments/:docId' element={<MyAppointments />} />
+        <Route path='/appointment/:docId' element={<Appointment />} />
       </Routes>
       <Fotter/>
     </div>

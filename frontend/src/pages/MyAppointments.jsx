@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MyAppointment() {
+function MyAppointments() {
   return (
     <div>MyAppointment</div>
   )
 }
 
-export default MyAppointment
+export default MyAppointments
